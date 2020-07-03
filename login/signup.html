@@ -1,0 +1,36 @@
+<html>
+<head>
+<meta content="charset=utf-8" />
+<title>Login</title>
+<link href="signup.css" rel="stylesheet" type="text/css"/>
+<link href="https://fonts.googleapis.com/css?family=Play" rel="stylesheet">
+</head>
+
+<body>
+    <div class="signup">
+        <form>
+            <h2 style="color: #fff;">Sign Up</h2>
+            <input type="text" name="username" placeholder="First name"><br><br>
+            <input type="text" name="username" placeholder="Last name"><br><br>
+            <input type="password" id="password" name="pass" placeholder="Password"><br><br>
+            <input type="password" name="pass" placeholder="Confirm Password"><br><br>
+            <input type="text" id="email" name="email" placeholder="Email address"><br><br>
+            <input type="button" value="Sign up" onclick="signUp()"><br><br>
+            Already have account?<a href="login.html" style="text-decoration: none; font-family: 'Play', sans-serif; color: yellow;">&nbsp;Log In</a>
+        </form>
+    </div>
+
+
+    <!-- The core Firebase JS SDK is always required and must be listed first -->
+<script src="https://www.gstatic.com/firebasejs/7.15.5/firebase-app.js"></script>
+
+<!-- TODO: Add SDKs for Firebase products that you want to use
+     https://firebase.google.com/docs/web/setup#available-libraries -->
+<script src="https://www.gstatic.com/firebasejs/7.15.5/firebase-analytics.js"></script>
+<!-- Add Firebase products that you want to use -->
+<script src="https://www.gstatic.com/firebasejs/7.15.5/firebase-auth.js"></script>
+<script src="https://www.gstatic.com/firebasejs/7.15.5/firebase-database.js"></script>
+<script src="firebaseconfig.js"></script>
+<script src="signup.js"></script>
+</body>
+</html>
